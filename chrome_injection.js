@@ -19,9 +19,7 @@ function saveLog(data){
      // 実行する処理
      var answer_text = document.querySelector('#commentGroup > div:nth-child(2) > h4')
      var kaitou = answer_text.innerText.substring(3, 9)
- //     str_count = String(count)
      console.log(kaitou);
- //     count += 1;
      saveLog(kaitou)
      setTimeout(counter, 5000);
  }
